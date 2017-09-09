@@ -1,4 +1,4 @@
-#Pretty Terminal
+# Pretty Terminal
 
 These tools are to print in the terminal to create a user interface.
 
@@ -6,11 +6,11 @@ The Terminal is an easy way to show the user what our code is doing but it's not
 
 Here's some options to make the terminal pretty. Remember that you need to make sure you have MVP(minimal viable product) before adding fancy extras like these, think of them as a stretch challenge.
 
-###Release 1
+### Release 1
 
 Clone this Repo and type `cd Pretty_Terminal` to get into the folder.
 
-###Colorizing Text
+### Colorizing Text
 
 This is the easiest way to spruce up your application is to add some simple color.
 
@@ -20,13 +20,13 @@ copy this example into your terminal.
 
 Bonus: You can dig into this further with [this link](https://wiki.archlinux.org/index.php/Color_Bash_Prompt#List_of_colors_for_prompt_and_Bash)
 
-###Ascii art and Animating Text
+### Ascii art and Animating Text
 
-#####Ascii
+##### Ascii
 
 First you need to convert images into blocks of text using a Ascii generator like [this one](http://glassgiant.com/ascii/). You can then use these characters by putting them in an array to shift or replace a piece of the image. Your other option, as shown in the example is to write a multiline string. Notice the begining `<<-CAPITOLWORD` and ending `CAPITOLWORD`.
 	
-#####Animating Frames
+##### Animating Frames
 
 Fliping through multiple still printed images gives the illusion of movement. The same rule applies to moving a walking animated character or a King across the checker board.
 
@@ -35,7 +35,7 @@ example
 
 Note the `clear_screen!` and `move_to_home!` methods.
 
-###Add Voice
+### Add Voice
 
 When used sparingly, this can add some dynamic interaction with your user.
 
