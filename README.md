@@ -1,8 +1,8 @@
 #Pretty Terminal
 
-In this class, we will be printing to the terminal to create a user interface.
+These tools are to print in the terminal to create a user interface.
 
-The Terminal is an easy way to show the user what our code is doing but it's not very user friendly. Later on in Rails - Level 2 we will be using HTML and CSS for our user interface and the options will be endless(almost). Even though the terminal is limited, we can have a little fun by stepping up the game.
+The Terminal is an easy way to show the user what our code is doing but it's not very user friendly. In Rails you can use HTML and CSS for your user interface and the options will be endless(almost). Even though the terminal is limited, we can have a little fun by stepping up the game.
 
 Here's some options to make the terminal pretty. Remember that you need to make sure you have MVP(minimal viable product) before adding fancy extras like these, think of them as a stretch challenge.
 
@@ -18,13 +18,13 @@ copy this example into your terminal.
 
 `ruby colorized_example.rb`
 
-You can dig into this further with [this link](https://wiki.archlinux.org/index.php/Color_Bash_Prompt#List_of_colors_for_prompt_and_Bash)
+Bonus: You can dig into this further with [this link](https://wiki.archlinux.org/index.php/Color_Bash_Prompt#List_of_colors_for_prompt_and_Bash)
 
 ###Ascii art and Animating Text
 
 #####Ascii
 
-First you need to convert images into blocks of text using a Ascii generator like [this one](http://www.glassgiant.com/ascii/ to convert images to ascii). You can then use these characters by putting them in an array to shift or replace a piece of the image. Your other option, as shown in the example is to write a multiline string. Notice the begining `<<-CAPITOLWORD` and ending `CAPITOLWORD`.
+First you need to convert images into blocks of text using a Ascii generator like [this one](http://glassgiant.com/ascii/). You can then use these characters by putting them in an array to shift or replace a piece of the image. Your other option, as shown in the example is to write a multiline string. Notice the begining `<<-CAPITOLWORD` and ending `CAPITOLWORD`.
 	
 #####Animating Frames
 
